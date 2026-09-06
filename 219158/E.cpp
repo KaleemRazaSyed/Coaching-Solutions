@@ -7,15 +7,8 @@ using namespace std;
 int main()
 {
   const float pi = 3.141592653;
-  
-  long double r;
+  float r;
   cin >> r;
-
-  cout << fixed << setprecision(20);
-  
-  cout << r * r * pi << endl;
-  //cout << pi << endl;
-
-  //cout << fixed << setprecision(5);
+  cout << fixed << setprecision(9) << r * r * pi << endl;
   return 0;
 }

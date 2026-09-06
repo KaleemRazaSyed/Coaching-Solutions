@@ -1,12 +1,12 @@
 #include<iostream>
-
+ 
 using namespace std;
-
+ 
 int main()
 {
   int A, B, C, D;
   cin >> A >> B >> C >> D;
-
+ 
   cout << "Difference = " << 1ll * A * B - 1ll * C * D << endl;
   return 0;
 }

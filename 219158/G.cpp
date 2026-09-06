@@ -1,11 +1,11 @@
 #include<iostream>
-
+ 
 using namespace std;
-
+ 
 int main()
 {
-  long long n; // 8 * 10^18
+  int n;
   cin >> n;
-  cout << (n * (n + 1)) / 2 << endl;
+  cout << (1ll * n * (n + 1)) / 2 << endl;
   return 0;
 }
