@@ -12,10 +12,10 @@ int main()
       cout << "Origem\n";
     }
     else if(x == 0) {
-      cout << "Eixo X\n";
+      cout << "Eixo Y\n";
     }
     else {
-      cout << "Eixo Y\n";
+      cout << "Eixo X\n";
     }      
   }
   else if(x > 0) {
